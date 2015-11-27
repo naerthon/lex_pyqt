@@ -72,9 +72,9 @@ class MainWindow(QMainWindow, PaReservados):
             self.loadFile(action.data())
 
     def about(self):
-        QMessageBox.about(self, "About Recent Files",
-                "The <b>Recent Files</b> example demonstrates how to provide "
-                "a recently used file menu in a Qt application.")
+        QMessageBox.about(self, "About PYCOM",
+                "<b>PYCOM</b> is a lexical analyzer developed in Python, for C language, using PyQt library. \n"
+                "We are developing a free and open source project which grows based on the community's necessities.")
 
     def createActions(self):
         self.newAct = QAction(QIcon('images/file_new.png'),
