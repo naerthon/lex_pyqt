@@ -1,0 +1,6 @@
+"all(*.*)"
+"txt(*.txt)"
+C(*.c)
+C++(*.cpp)
+
+"HTML (*.html *.htm)"
